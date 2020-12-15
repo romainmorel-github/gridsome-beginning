@@ -2,6 +2,8 @@
   <Layout>
     <div class="container">
 
+      <Notifications />
+
       <div class="contact-header">
         <h1 class="contact-title">Say hi!</h1>
         <p>Leave me a note with any questions you might have, I'll get back to you as soon as possible.</p>
@@ -34,7 +36,10 @@
 </template>
 
 <script>
-export default {}
+import Notifications from '@/components/Notifications'
+export default {
+  
+}
 </script>
 
 <style scoped>
